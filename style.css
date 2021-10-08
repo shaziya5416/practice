@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Start of home page*/
+*{
+    box-sizing: border-box;
+}
+body{
+line-height: 1.5;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+header{
+    background-color: palevioletred;
+	text-decoration: none;
+	height: 100px;
+}
+.header{
+	display: inline-block;
+	margin: 10px;
+}
+h1{
+	font-size: 45px;
+	font-weight: bolder;
+	font-style: oblique;
+	color: black;
+}
+nav{
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 1500px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+	/* Start of BLOG-PAGE*/
+
+
+h4{
+	font-size: 28px;
+	font-weight: bolder;
+}
+h5{
+	font-size: 18px;
+}
+.image1{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.containerb{
+	width: 1500px;
+	height: 350px;
+	margin-bottom: 30px;
+	margin-left: 80px;
+	margin-left: 170px;
+	margin-top: 30px;
+}
+.child-containerb{
+	width: 600px;
+	height: 350px;
+	margin-right: 35px;
+	display: inline-block;
+}
+.child-container2b{
+	display: inline-block;
+	width: 600px;
+	vertical-align: top;
+}
+footer{
+	background-color: darkgreen;
+	text-decoration: none;
+	text-align: center;
+	position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+h3{
+	font-size: 20px;
+	color: white;
+}
